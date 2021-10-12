@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>MA-Formulaire</title>
+    <link rel="stylesheet" href="agenda.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <Header style="background-color: #4a4742b9;">
+        </div><a href="agenda.html" target="_blank"><img src="My Agenda.png" width="25%" height="25%"
+                alt="brochure"></a></div>
+        </div>
+    </Header>
+    <main>
+        <br>
+        <br>
+        <!-- FORMULAIRE -->
+          <h1>FORMULAIRE</h1>
+          <br>
+          <br>
+        </style>
+        <form action="formulaire.html" method="post">
+            <div><label for="name"> Titre :</label>
+                <input type="text" id="Titre" name="Titre"required>
+            </div>
+            <div>
+                <label for="msg">Description :</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <div>
+                <label for="mail">Catégorie :</label>
+                <input type="category" id="category" name="categorie"required>
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id="datetime" name="datetime"required>
+            </div><div>
+                <label for="date">Heure :</label>
+                <input type="time" id="appt" name="appt"
+       min="07:00" max="23:00" required>
+            </div>
+          
+            <div class=".button">
+                <button type="submit">Enregistrer</button>
+            </div>
+        </form>
+        <br>
+    </main>
+
+</body>
+
+</html>
